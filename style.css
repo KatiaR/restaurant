@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Gentium-Basics";
+    src: url('fonts/GenBasB.ttf');
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    src: url('fonts/YesevaOne-Regular_v2.otf');
+}
+
+@font-face {
+    font-family: "Fotn-awesome";
+    src: url('fonts/Font Awesome 5 Free-Regular-400.otf');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icon/icomoon.woff?2jz00t') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+    color: #dab33e;
+    font-size: 20px;
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+    color: #dab33e;
+    font-size: 18px;
+}
+
+.icon-youtube2:before {
+    content: "\ea9e";
+    color: #dab33e;
+    padding: 0 10px;
+}
+
+.icon-trello:before {
+    content: "\eab3";
+    color: #dab33e;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapper-navig {
+    background: url(img/Bg.png) no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 37px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.logo {
+    font-family: "YesevaOne", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 100;
+    position: relative;
+    margin-left: 178px;
+    color: #c5c5c6;
+}
+
+.list_routes {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 216px;
+}
+
+.list_routes li a {
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+    padding-top: 40px;
+    font-size: 22px;
+    position: relative;
+    top: -8px;;
+    font-family: "Gentium-Basics", sans-serif;
+}
+
+.list_routes li a:hover {
+    border-top: 5px solid white;
+}
+
+.icons-header {
+    padding-top: 10px;
+    margin-left: -5px;
+}
+
+.nav-link2 {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 88px;
+    font-family: "YesevaOne", sans-serif;
+    line-height: 1.36;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin: 117px 0 22px;
+}
+
+.smart-obj {
+    width: 15%;
+    margin-left: 6px;
+}
+
+.buttom-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button12 {
+    display: flex;
+    justify-content: center;
+}
+
+.butt1 {
+    margin-right: 27px;
+    height: 57px;
+    width: 231px;
+    background-color: rgba(192, 192, 192, 0.3);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    margin-top: 32px;
+    font-size: 17px;
+    letter-spacing: 0.37px;
+    border: 1px solid white;
+}
+
+.butt2 {
+    margin-top: 32px;
+    height: 57px;
+    width: 231px;
+    background-color: rgba(192, 192, 192, 0.3);
+    color: white;
+    font-family: "Lato", sans-serif;
+    border: 1px solid white;
+    font-size: 17px;
+    letter-spacing: 0.37px;
+    text-transform: uppercase;
+}
+
+.butt1:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 1, 0.6);
+    border: 1px solid rgba(0, 0, 1, 0.6);
+}
+
+.butt2:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 1, 0.6);
+    border: 1px solid rgba(0, 0, 1, 0.6);
+}
