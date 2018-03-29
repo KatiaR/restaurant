@@ -12,7 +12,14 @@
     font-family: "Gentium-Basics";
     src: url('fonts/GenBasB.ttf');
 }
-
+@font-face {
+    font-family: "OpenSans";
+    src: url('fonts/OpenSans-Italic.ttf');
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url('fonts/OpenSans-Regular.ttf');
+}
 @font-face {
     font-family: "YesevaOne";
     src: url('fonts/YesevaOne-Regular_v2.otf');
@@ -229,6 +236,7 @@ h1 {
     flex-direction: column;
     max-width: 30%;
     align-items: center;
+    overflow: hidden;
 }
 
 h2 {
@@ -239,7 +247,7 @@ h2 {
     margin-left: 39px;
     margin-top: 28px;
     color: #cc9900;
-    /*margin-bottom: 14px;*/
+
 }
 
 .wrapper-about p {
@@ -297,13 +305,13 @@ h2 {
     color: white;
     margin-left: 1px;
     margin-top: 27px;
-    margin-bottom: 16px;
-}
+    margin-bottom: 28px;
 }
 
+
 .smart-obj3 {
-    margin-top: -17px;
-    margin-left: 0px;
+    margin-top: -15px;
+    margin-left: 8px;
 }
 
 .block-ingredients p {
@@ -444,6 +452,7 @@ h4, .price {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .block-reviews h4 {
@@ -494,4 +503,116 @@ blockquote cite {
     color: white;
     letter-spacing: 0.6px;
     font-style: normal;
+}
+.cont-information {
+    background: url(img/pattern1.png) repeat;
+}
+.wrapper-block {
+     background: url(img/pattern1.png) repeat;
+    padding: 100px 214px 89px;
+    display: flex;
+}
+.image-column {
+    display: flex;
+    height: 100%;
+}
+.smart-obj6 {
+    margin-right: 30px;
+}
+.description-column {
+    margin-left: 19px;
+    margin-right: 73px;
+}
+.description-information {
+    text-align: center;
+    letter-spacing: 0.055em;
+    line-height: 1.79;
+    font-size: 14px;
+}
+ h5 {
+     margin-top: -15px;
+     margin-left: -5px;
+     margin-bottom: 12px;
+     font-family: "YesevaOne", sans-serif;
+     font-size: 36px;
+     font-weight: 100;
+     letter-spacing: 0px;
+          color: #cc9900;
+
+}
+.description-information .smart-obj2 {
+    margin-left: -8px;
+}
+.description-information p {
+    font-family: "Lato", sans-serif;
+    margin-bottom: -7px;
+}
+form {
+    display: flex;
+flex-wrap: wrap;
+    margin-top: 55px;
+    position: relative;
+}
+input {
+    margin: 14px 17px 35px 13px;
+    height: 31px;
+    width: 168px;
+    font-family: "OpenSans", sans-serif;
+    padding: 0px 14px;
+    font-size: 16px;
+
+}
+.form-column {
+    margin-left: 58px;
+}
+.button-book {
+    margin-left: 129px;
+    margin-top: -2px;
+    width: 201px;
+    height: 36px;
+    color: white;
+    background: #c9a131;
+    font-family: "Open Sans", sans-serif;
+       font-weight: 100;
+}
+.calendar-icon {
+    position: relative;
+}
+.calendar-icon span {
+    position: absolute;
+    top: 22px;
+    right: 27px;
+
+}
+.list {
+    position: relative;
+}
+.list span {
+    position: absolute;
+    top: 23PX;
+    right: 31px;
+}
+.list-form {
+    margin: 14px 17px 35px 13px;
+    height: 36px;
+    width: 200px;
+    font-family: "OpenSans", sans-serif;
+    padding: 0px 14px;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
+label {
+    height: 14px;
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #cca746;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    font-size: 16px;
+}
+.e-mail {
+    left: 242px;
+    font-size: 16px;
 }
