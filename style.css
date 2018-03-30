@@ -97,7 +97,7 @@ body {
 }
 
 .wrapper-main {
-
+    min-height: calc(100vh - 320px);
 }
 .wrapper-header {
     background: url(img/Bg.png) no-repeat;
