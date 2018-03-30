@@ -251,22 +251,22 @@
                 </div>
                 <form action="" method="post">
                     <div>
-                        <label>Name</label>
-                        <input type="text" name="name" placeholder="your name*" required>
+                        <label  for="check1">Name</label>
+                        <input type="text" name="name" id="check1" placeholder="your name*" required>
                     </div>
                     <div class="email">
-                        <label class="e-mail">Email</label>
+                        <label for="check2" class="e-mail">Email</label>
                         <input pattern="^[-a-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-a-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?\.)*(?:aero|arpa|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|[a-z][a-z])$"
-                               type="email" name="email" placeholder="your email*" required>
+                               type="email" name="email" id="check2" placeholder="your email*" required>
                     </div>
                     <div class="calendar-icon">
                         <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
-                        <label>Date</label>
-                        <input type="text" name="date" placeholder="date*" required></div>
+                        <label for="check3">Date</label>
+                        <input type="text" name="date" id="check3" placeholder="date*" required></div>
                     <div class="list">
                         <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-                        <label>Party number</label>
-                        <select class="list-form" name="character">
+                        <label for="check4">Party number</label>
+                        <select class="list-form" id="check4" name="character">
                             <option value="0">party number</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
