@@ -12,14 +12,17 @@
     font-family: "Gentium-Basics";
     src: url('fonts/GenBasB.ttf');
 }
+
 @font-face {
     font-family: "OpenSans";
     src: url('fonts/OpenSans-Italic.ttf');
 }
+
 @font-face {
     font-family: "Open Sans";
     src: url('fonts/OpenSans-Regular.ttf');
 }
+
 @font-face {
     font-family: "YesevaOne";
     src: url('fonts/YesevaOne-Regular_v2.otf');
@@ -98,6 +101,7 @@ body {
     min-width: 100%;
     height: 749px;
     margin: 0 auto;
+
 }
 
 header {
@@ -116,7 +120,9 @@ header {
     margin-left: 178px;
     color: #c5c5c6;
 }
-
+nav {
+    margin-top: 1px;
+}
 .list_routes {
     cursor: pointer;
     list-style-type: none;
@@ -129,7 +135,7 @@ header {
     color: white;
     text-decoration: none;
     margin: 24px;
-    padding-top: 40px;
+    padding-top: 42px;
     font-size: 22px;
     position: relative;
     top: -8px;;
@@ -143,6 +149,11 @@ header {
 .icons-header {
     padding-top: 10px;
     margin-left: -5px;
+    color: #dab33e;
+}
+.icons-header i {
+    padding: 0 9px 0 14px;
+    font-size: 20px;
 }
 
 .nav-link2 {
@@ -255,7 +266,8 @@ h2 {
     text-align: center;
     line-height: 24px;
     padding-top: 8px;
-    padding-left: 51px;
+    padding-left: 39px;
+    letter-spacing: -0.09px;
 }
 
 .main-decor {
@@ -299,6 +311,7 @@ h2 {
     top: 101px;
     box-sizing: border-box;
     padding: 47px 70px;
+    letter-spacing: -0.19px;
 }
 
 .block-ingredients h2 {
@@ -307,7 +320,6 @@ h2 {
     margin-top: 27px;
     margin-bottom: 28px;
 }
-
 
 .smart-obj3 {
     margin-top: -15px;
@@ -395,8 +407,6 @@ h4, .price {
     margin-left: 0px;
 }
 
-
-
 .meal-price {
     display: flex;
     align-items: flex-end;
@@ -440,10 +450,12 @@ h4, .price {
     text-align: center;
     font-family: "Lato", sans-serif;
 }
+
 .sale-colum h4 {
     margin-top: 11px;
     margin-bottom: 3px;
 }
+
 .guest-reviews {
     position: relative;
     background: url(img/bgm.png) no-repeat 39% 82%;
@@ -463,7 +475,6 @@ h4, .price {
     margin-top: 78px;
 }
 
-
 .block-reviews {
     background-color: rgba(0, 0, 0, 0.8);
     width: 769px;
@@ -471,14 +482,17 @@ h4, .price {
     position: relative;
 
 }
+
 .smart-obj5 {
 
     margin-top: 2px;
     margin-left: 10px;
 }
+
 blockquote {
     margin-top: -20px;
 }
+
 blockquote:before {
     content: "\201C";
     font-family: serif;
@@ -488,71 +502,86 @@ blockquote:before {
     color: #9fa4a1;
     font-size: 95px;
 }
+
 blockquote p {
     color: white;
     font-size: 24px;
-    letter-spacing: .025em;
+    letter-spacing: .027em;
     line-height: 1.89;
     font-family: "Gentium-Basics", sans-serif;
     padding: 10px 34px;
-    margin-left: 3px;
+
 }
 
 blockquote cite {
     font-family: "Lato", sans-serif;
     color: white;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.1px;
     font-style: normal;
+    font-size: 17px;
+    margin-top: -13px;
+    margin-left: -4px;
 }
+
 .cont-information {
     background: url(img/pattern1.png) repeat;
 }
+
 .wrapper-block {
-     background: url(img/pattern1.png) repeat;
-    padding: 100px 214px 89px;
+    background: url(img/pattern1.png) repeat;
+    padding: 100px 214px 69px;
     display: flex;
 }
+
 .image-column {
     display: flex;
     height: 100%;
 }
+
 .smart-obj6 {
     margin-right: 30px;
 }
+
 .description-column {
     margin-left: 19px;
     margin-right: 73px;
 }
+
 .description-information {
     text-align: center;
     letter-spacing: 0.055em;
     line-height: 1.79;
     font-size: 14px;
 }
- h5 {
-     margin-top: -15px;
-     margin-left: -5px;
-     margin-bottom: 12px;
-     font-family: "YesevaOne", sans-serif;
-     font-size: 36px;
-     font-weight: 100;
-     letter-spacing: 0px;
-          color: #cc9900;
+
+h5 {
+    margin-top: -15px;
+    margin-left: -5px;
+    margin-bottom: 12px;
+    font-family: "YesevaOne", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #cc9900;
 
 }
+
 .description-information .smart-obj2 {
     margin-left: -8px;
 }
+
 .description-information p {
     font-family: "Lato", sans-serif;
     margin-bottom: -7px;
 }
+
 form {
     display: flex;
-flex-wrap: wrap;
-    margin-top: 55px;
+    flex-wrap: wrap;
+    margin-top: 54px;
     position: relative;
 }
+
 input {
     margin: 14px 17px 35px 13px;
     height: 31px;
@@ -562,36 +591,45 @@ input {
     font-size: 16px;
 
 }
+
 .form-column {
     margin-left: 58px;
 }
+
 .button-book {
     margin-left: 129px;
-    margin-top: -2px;
+    margin-top: -4px;
     width: 201px;
     height: 36px;
     color: white;
     background: #c9a131;
     font-family: "Open Sans", sans-serif;
-       font-weight: 100;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
 }
+
 .calendar-icon {
     position: relative;
 }
+
 .calendar-icon span {
     position: absolute;
     top: 22px;
     right: 27px;
 
 }
+
 .list {
     position: relative;
 }
+
 .list span {
     position: absolute;
     top: 23PX;
     right: 31px;
 }
+
 .list-form {
     margin: 14px 17px 35px 13px;
     height: 36px;
@@ -601,6 +639,7 @@ input {
     font-size: 16px;
     -webkit-appearance: none;
 }
+
 label {
     height: 14px;
     position: absolute;
@@ -612,7 +651,79 @@ label {
     letter-spacing: -0.5px;
     font-size: 16px;
 }
+
 .e-mail {
     left: 242px;
     font-size: 16px;
+}
+
+@media (max-width: 1560px) {
+    .e-mail {
+        left: 13px;
+        top: 71px;
+    }
+
+    .button-book {
+        margin-left: 12px;
+    }
+}
+
+footer {
+    display: flex;
+    background: black;
+    color: white;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding: 11px 199px 11px 200px
+
+}
+
+.about, .open-time, .location {
+    width: 33%;
+}
+
+footer h6 {
+    font-family: "YesevaOne", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 14px;
+    letter-spacing: 0.3px;
+
+}
+
+footer p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    margin-top: 11px;
+    letter-spacing: 0.03px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.open-time p {
+    font-weight: 100;
+    letter-spacing: 0.1px;
+    margin-left: 4px;
+}
+.payments {
+    margin-top: 51px;
+    margin-left: 9px;
+}
+.payments i {
+    padding: 0 4px;
+}
+.location p {
+    letter-spacing: 0.5px;
+}
+.smart-obj7 {
+    margin-left: 6px;
+    width: 54%;
+}
+.social-icons {
+    margin-top: 50px;
+    margin-left: 7px;
+}
+.social-icons i {
+    padding: 0 4px;
 }
